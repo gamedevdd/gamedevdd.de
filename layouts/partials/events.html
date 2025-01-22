@@ -1,0 +1,17 @@
+{{ $data := index site.Data }}
+
+{{ if $data.events.enable }}
+{{ with $data.events }}
+{{"<!-- Start About Section -->" | safeHTML}}
+<div style="width: 30%;">
+    <h2 class="heading2">upcomming <span class="pink">event</span></h2>
+    <span class="badge event-chip event-chip-text"> {{ .date }}</span>
+    <span class="badge event-chip event-chip-text"> ab 18:00 | FHD Dresden</span>
+    <br>
+    <span class="badge event-chip event-chip-text"><img src="/images/megaphone.svg"> {{ .speaker }}</span>
+    <div class="spacing"></div>
+    <p class="heading3"><span class="pink">”</span>{{ .plot }}<span class="pink">”</span></p>
+    <p class="normal_text">{{ .text | markdownify }}</p>
+</div>
+{{ end }}
+{{ end }}

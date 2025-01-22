@@ -1,0 +1,12 @@
+{{ $data := index site.Data }}
+
+{{ if $data.join.enable }}
+{{ with $data.join }}
+{{"<!-- Start About Section -->" | safeHTML}}
+<div style="width: 30%;">
+    <h2 class="heading2">join <span class="pink">us</span></h2>
+    <p class="normal_text">{{ .text | markdownify }}</p>
+    <a href="{{ .discordLink }}"><img src="/images/discord.svg"></a>
+</div>
+{{ end }}
+{{ end }}

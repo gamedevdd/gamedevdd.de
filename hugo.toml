@@ -1,0 +1,29 @@
+baseURL = "https://www.gamedevdd.de"
+languageCode = 'en-US'
+title = 'Gamedev DD'
+contentdir = 'content'
+
+[[menus.main]]
+name = 'HOME'
+url = '/'
+weight = 10
+
+[[menus.main]]
+name = 'ABOUT US'
+url = '/#about'
+weight = 20
+
+[[menus.main]]
+name = 'EVENTS'
+url = '/#events'
+weight = 30
+
+[[menus.main]]
+name = 'JOIN'
+url = '/#join'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
