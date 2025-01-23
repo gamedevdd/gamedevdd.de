@@ -1,4 +1,21 @@
-<script src="/js/feather.min.js"></script>
+<script src="/js/powerglitch.min.js"></script>
 <script>
-    feather.replace()
+    // Glitch elements with class 'some-element'
+    PowerGlitch.glitch('.autoglitch',
+        {
+            "timing": {
+                "duration": 3050
+            }
+        });
+
+    PowerGlitch.glitch('.hoverglitch', {
+        playMode: "hover",
+        "shake": {
+            "amplitudeX": 0.15,
+            "amplitudeY": 0.15
+        },
+        "slice": {
+            "maxHeight": 0.08
+        }
+    })
 </script>
