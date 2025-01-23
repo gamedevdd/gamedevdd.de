@@ -130,11 +130,11 @@ nav {
   margin-top: 5px;
 }
 
-.upper {
-  width: 500px !important;
+.sect-content {
+  width: 500px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 1024px) {
 
   .title {
     font-size: 6em;
