@@ -129,3 +129,20 @@ nav {
   font-style: bold;
   margin-top: 5px;
 }
+
+.upper {
+  width: 500px !important;
+}
+
+@media (min-width: 576px) {
+
+  .title {
+    font-size: 6em;
+  }
+
+  .nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+}

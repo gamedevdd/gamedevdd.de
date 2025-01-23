@@ -3,8 +3,8 @@
 {{ if $data.about.enable }}
 {{ with $data.about }}
 {{"<!-- Start About Section -->" | safeHTML}}
-<div style="width: 30%;">
-    <h2 class="heading2">about <span class="pink">us</span></h2>
+<div class="upper">
+    <h2 class=" heading2">about <span class="pink">us</span></h2>
     <p class="normal_text">{{ .text | markdownify }}</p>
 </div>
 {{ end }}
