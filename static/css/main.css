@@ -137,12 +137,16 @@ nav {
 @media (min-width: 370px) and (max-width: 1000px) {
 
   .title {
-    font-size: 4.5em;
+    font-size: 4.2em;
   }
 
   .nav-link {
     padding-left: 10px !important;
     padding-right: 10px !important;
+  }
+
+  .sect-content {
+    width: 360px;
   }
 
 }
