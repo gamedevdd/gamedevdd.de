@@ -6,7 +6,9 @@
 <div class="sect-content">
     <h2 class=" heading2">upcomming <span class="pink">event</span></h2>
     <span class="badge event-chip event-chip-text"> {{ .date }}</span>
-    <span class="badge event-chip event-chip-text"> ab 18:00 | FHD Dresden</span>
+    <a target="_blank" rel="noopener noreferrer" href="{{ .placelink }}">
+        <span class="badge event-chip event-chip-text"> ab 18:00 | {{ .place }}</span>
+    </a>
     <br>
     <span class="badge event-chip event-chip-text"><img src="/images/megaphone.svg"> {{ .speaker }}</span>
     <div class="spacing"></div>

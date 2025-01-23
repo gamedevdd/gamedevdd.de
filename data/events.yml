@@ -3,6 +3,7 @@ enable: true
 speaker: Everybody
 date: 29.01.2025
 place: FH Dresden
+placelink: "https://www.openstreetmap.org/node/5339498862"
 plot: "General socializing"
 text: >
   If you like bring your projects and demos for others to try :)
