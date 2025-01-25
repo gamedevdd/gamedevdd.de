@@ -2,14 +2,6 @@
 enable: true
 speaker: Everybody
 games:
-  - title: Dome Keeper
-    author: Bippinbits
-    link: "https://store.steampowered.com/app/1637320/Dome_Keeper/"
-    linktext: "STEAM"
-    image: "../images/games/domekeeper.jpg"
-    plot: >
-      Defend against waves of alien attackers in this innovative roguelike survival miner. Dig for resources and choose from powerful upgrade paths. Is there enough time to mine a little deeper and get back to defend before the monsters attack your dome?
-
   - title: Circulation
     author: Oleg Klaus
     link: "https://store.steampowered.com/app/2895170/Circulation/"
@@ -17,6 +9,22 @@ games:
     image: "../images/games/circulation.png"
     plot: >
       Roll around as a living sphere in a Circular-Puzzle-Platformer. Control mysterious machines and align platforms. Create pathways and escape the labyrinth.
+
+  - title: PVKK
+    author: Bippinbits
+    link: "https://store.steampowered.com/app/2956040/PVKK_Planetenverteidigungskanonenkommandant/"
+    linktext: "STEAM"
+    image: "../images/games/pvkk.jpg"
+    plot: >
+      Operate your planetary defense cannon to fend off an interplanetary invasion from the comfort of your cozy bunker. You’re here to stay, so obey your superiors, press the right buttons, and sip your daily tea ration - it's good for you.
+
+  - title: Dome Keeper
+    author: Bippinbits
+    link: "https://store.steampowered.com/app/1637320/Dome_Keeper/"
+    linktext: "STEAM"
+    image: "../images/games/domekeeper.jpg"
+    plot: >
+      Defend against waves of alien attackers in this innovative roguelike survival miner. Dig for resources and choose from powerful upgrade paths. Is there enough time to mine a little deeper and get back to defend before the monsters attack your dome?
 
   - title: U-Sharp
     author: Vincent Schiller
