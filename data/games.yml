@@ -1,0 +1,27 @@
+############################# About ###################################
+enable: true
+speaker: Everybody
+games:
+  - title: Dome Keeper
+    author: Bippinbits
+    link: "https://store.steampowered.com/app/1637320/Dome_Keeper/"
+    linktext: "STEAM"
+    image: "../images/games/domekeeper.jpg"
+    plot: >
+      Defend against waves of alien attackers in this innovative roguelike survival miner. Dig for resources and choose from powerful upgrade paths. Is there enough time to mine a little deeper and get back to defend before the monsters attack your dome?
+
+  - title: Circulation
+    author: Oleg Klaus
+    link: "https://store.steampowered.com/app/2895170/Circulation/"
+    linktext: "STEAM"
+    image: "../images/games/circulation.png"
+    plot: >
+      Roll around as a living sphere in a Circular-Puzzle-Platformer. Control mysterious machines and align platforms. Create pathways and escape the labyrinth.
+
+  - title: U-Sharp
+    author: Vincent Schiller
+    link: "https://store.steampowered.com/app/2677830/USharp_The_Unity_Coding_Learning_Game/"
+    linktext: "STEAM"
+    image: "../images/games/usharp.jpg"
+    plot: >
+      The world's first Unity programming learning game with C-Sharp. Explore, solve, and modify code in themed challenges from basics to expert levels. Dive into a one-of-a-kind learning adventure, mastering Unity along the way.

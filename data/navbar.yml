@@ -1,0 +1,20 @@
+items:
+  - name: "HOME"
+    url: "/#home"
+    id: "nav-home"
+
+  - name: "ABOUT US"
+    url: "/#about"
+    id: "nav-about"
+
+  - name: "EVENTS"
+    url: "/#events"
+    id: "nav-events"
+
+  - name: "GAMES"
+    url: "/games"
+    id: "nav-games"
+
+  - name: "JOIN"
+    url: "/#join"
+    id: "nav-join"

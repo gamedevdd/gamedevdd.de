@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ $data := index site.Data }}
+
+{{ with $data.games }}
+<div class="mainview">
+    {{ range .games }}
+    <div id="events" class="h-100 d-flex justify-content-center section odd">
+        {{ partial "game.html" . }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}

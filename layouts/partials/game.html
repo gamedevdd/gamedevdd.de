@@ -1,0 +1,22 @@
+<div class="sect-content">
+    <h2 class=" heading2">{{ .title }}</h2>
+    <span class="badge event-chip event-chip-text">
+        <span class="align-middle">{{ .author }}</span>
+    </span>
+    <a class="hoverglitch" target="_blank" rel="noopener noreferrer" href="{{ .link }}">
+        <span class="badge event-chip event-chip-text white">
+            <span class="align-middle"><img src="/images/link-icon.svg"></span>
+            <span class="align-middle">{{ .linktext }}</span>
+        </span>
+    </a>
+    <div style="padding-bottom: 40px;"></div>
+    <img class="game_pic" src="{{ .image }}">
+    <div style="padding-bottom: 40px;"></div>
+    <p class="normal_text">{{ .plot | markdownify }}</p>
+</div>
+
+<script src="/js/jquery.min.js"></script>
+
+<script>
+    $("#nav-games").addClass("active");
+</script>

@@ -1,5 +1,13 @@
 <script src="/js/powerglitch.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+
 <script>
+    var hash = window.location.hash.substring(1);
+    if (hash != "") {
+        console.log("#nav-" + hash);
+        $("#nav-" + hash).addClass("active");
+    }
+    console.log(hash);
     // Glitch elements with class 'some-element'
     PowerGlitch.glitch('.autoglitch',
         {
@@ -18,4 +26,13 @@
             "maxHeight": 0.08
         }
     })
+
+    $(document).ready(function () {
+        $(".nav-link").click(
+            function (e) {
+                $(".nav-link").removeClass(
+                    "active");
+                $(this).addClass("active");
+            });
+    });
 </script>
