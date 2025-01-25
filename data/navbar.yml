@@ -11,10 +11,10 @@ items:
     url: "/#events"
     id: "nav-events"
 
-  - name: "GAMES"
-    url: "/games"
-    id: "nav-games"
-
   - name: "JOIN"
     url: "/#join"
     id: "nav-join"
+
+  - name: "GAMES"
+    url: "/games"
+    id: "nav-games"
