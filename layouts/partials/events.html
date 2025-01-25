@@ -9,9 +9,7 @@
     <a target="_blank" rel="noopener noreferrer" href="{{ .placelink }}">
         <span class="badge event-chip event-chip-text"> ab 18:00 | {{ .place }}</span>
     </a>
-    <div class="spacing"></div>
     <span class="badge event-chip event-chip-text"><img src="/images/megaphone.svg"> {{ .speaker }}</span>
-    <div class="spacing"></div>
     <p class="heading3"><span class="pink">”</span>{{ .plot }}<span class="pink">”</span></p>
     <p class="normal_text">{{ .text | markdownify }}</p>
 </div>
