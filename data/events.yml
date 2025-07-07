@@ -1,17 +1,19 @@
 ############################# About ###################################
 enable: true
-speaker: Oleg
-date: 28.05.2025
+speaker: Fio
+date: 23.07.2025
 place: Nerdpol Cafe, Bautzner Str. 53, 01099 Dresden
-plot: "Video editing basics"
+plot: "Level Design"
 place: Nerdpol Cafe
 placelink: "https://www.openstreetmap.org/node/4307112650"
-plot: "Video editing basics"
+plot: "Level design - first steps"
 text: >
-  Creating a trailer of your game or latest feature is helpful for social media or Steam. To get you started, Oleg will hold a presentation about editing videos in Da Vinci Resolve. After his presentation, there will be time for play testing and networking.  
+  Getting started with level design can feel a bit daunting in the beginning. Fio's talk will cover how to approach it at an early stage, so that you have a good and solid base to work with later on. After the presentation, there will be time for play testing and networking.  
 
 
   Please note: This time, we meet at 18:30 at the Nerdpol Café on Bautzner Str. 
+  
+  The talk will start at 19:00. 
   
 
   Looking forward to seeing you there! :)
