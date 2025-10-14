@@ -10,6 +10,14 @@ games:
     plot: >
       Roll around as a living sphere in a Circular-Puzzle-Platformer. Control mysterious machines and align platforms. Create pathways and escape the labyrinth.
 
+  - title: Hand of Hexes
+    author: Emmanuel Diehl
+    link: "https://store.steampowered.com/app/3238220/Hand_of_Hexes/"
+    linktext: "STEAM"
+    image: "../images/games/hand_of_hexes.png"
+    plot: >
+      Play cards to cast spells that control enemy hordes and use your deck to build deadly mazes of towers with funky attack patterns.
+
   - title: PVKK
     author: Bippinbits
     link: "https://store.steampowered.com/app/2956040/PVKK_Planetenverteidigungskanonenkommandant/"
