@@ -1,0 +1,21 @@
+{{- $event := site.Data.events -}}
+{{- $dateParts := split $event.date "." -}}
+{{- $isoDate := printf "%s-%s-%sT18:00:00" (index $dateParts 2) (index $dateParts 1) (index $dateParts 0) -}}
+{{- $date := time $isoDate -}}
+{{- $endDate := $date.Add (time.ParseDuration "2h") -}}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Gamedev DD//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:{{ $date.Format "20060102" }}@gamedevdd.de
+DTSTAMP:{{ now.UTC.Format "20060102T150405Z" }}
+DTSTART:{{ $date.Format "20060102T150405" }}
+DTEND:{{ $endDate.Format "20060102T150405" }}
+SUMMARY:{{ $event.plot }}
+LOCATION:{{ $event.place }}
+DESCRIPTION:Speaker: {{ $event.speaker }}\n\nLocation: {{ $event.placelink }}\n\n{{ $event.text | plainify | replaceRE "\\n" "\\n " }}
+URL:https://www.gamedevdd.de
+END:VEVENT
+END:VCALENDAR

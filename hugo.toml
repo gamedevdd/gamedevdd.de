@@ -3,6 +3,19 @@ languageCode = 'en-US'
 title = 'Gamedev DD'
 contentdir = 'content'
 
+[mediaTypes]
+  [mediaTypes."text/calendar"]
+    suffixes = ["ics"]
+
+[outputFormats]
+  [outputFormats.ICS]
+    mediaType = "text/calendar"
+    baseName = "events"
+    isPlainText = true
+
+[outputs]
+  home = ["HTML", "ICS"]
+
 [module]
   [module.hugoVersion]
     extended = false
